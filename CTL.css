@@ -1,0 +1,114 @@
+body{margin:8pt;
+background-color:#e7e7e7;
+background-repeat: no-repeat;
+margin:0}
+
+video {position:absolute}
+
+img.home {border-radius:25px;
+width:500;
+height:300;}
+
+img.home:hover {border-radius:10px;
+box-shadow:0px 0px 20px -9px rgba(66,66,66,1);
+transition:0.5s}
+
+img.top {margin-right:30px;
+border-radius:50px;
+box-shadow:0px 0px 20px -6px rgba(0,0,0,0.75);
+width:50;
+height:50}
+
+img.top:hover {
+box-shadow:0px 0px 30px -6px rgba(0,0,0,0.75)}
+
+h1 {font-family:gabriola;
+font-size:30pt;
+letter-spacing:5px;
+color:white}
+
+p {color:black}
+
+table.menu {position:relative;
+background-color:none;
+font-family:gabriola;
+font-size:15pt;
+letter-spacing:2px}
+
+table.normal {color:black;
+background-color:none;
+font-family:verdana;}
+
+td.menu:hover {background-color:#ffffff80;
+letter-spacing:4px;
+transition:0.8s}
+
+td.location {border-radius:5px;
+background-size:360px 230px;
+width:350px;
+height:230px;
+vertical-align:top}
+
+td.location:hover {box-shadow:0px 0px 10px 0px rgba(0,0,0,0.75);
+transition: 0.5s;
+transform: translate(0, -8px)}
+
+td.title {font-size:22pt;
+text-align:left;
+letter-spacing:2.5px;
+width:26%}
+
+td.content {font-size:11pt;
+text-align:left;
+letter-spacing:1px;
+width:26%}
+
+a.menu {text-decoration:none;
+color:white}
+
+a.menu:hover {color:#000000;
+letter-spacing:4px;
+transition:0.7s;}
+
+a.normal {text-decoration:none;
+color:#0045A8;}	
+
+a.normal:hover {text-decoration:underline;}
+
+a.location {text-decoration:none;
+color:white;
+font-family:arial;
+font-size:18pt;
+letter-spacing:1px;
+margin-left:35px;
+font-weight:bold}
+
+a.location:hover {color:#ffffffcc}
+
+div.blueline {background-color:#154360;
+width:60px;
+height:2px;
+margin-top:30px;
+align:left}
+
+div.hrline {background-color:#B2BABB;
+width:260px;
+height:1px;
+align:right}
+
+div.bookbtn {font-family:verdana;
+font-size:10.5pt;
+color:white;
+letter-spacing:1.5px;
+padding:20px;
+background-color:#154360;
+border-radius:20px;
+width:100px;
+height:15px}
+
+div.bookbtn:hover {background-color:#e7e7e7;
+color:#154360;
+letter-spacing:4px;
+width:135px;
+box-shadow:0px 0px 4px 0px rgba(21,67,96,1);
+transition: 0.5s}
